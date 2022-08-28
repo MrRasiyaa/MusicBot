@@ -1,5 +1,5 @@
 pyrogram==1.3.6
-py-tgcalls==0.8.2
+git+https://github.com/MrSnapPro/kk@master
 tgcrypto
 git+https://github.com/TeamShizuX/kk@master
 youtube-search-python
