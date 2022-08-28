@@ -75,8 +75,8 @@ class Config:
     PTN=is_enabled(os.environ.get("PTN", "False"))
 
     #Quality vars
-    E_BITRATE=os.environ.get("BITRATE", "128")
-    E_FPS=os.environ.get("FPS", "45")
+    E_BITRATE=os.environ.get("BITRATE", False)
+    E_FPS=os.environ.get("FPS", "30")
     CUSTOM_QUALITY=os.environ.get("QUALITY", "50")
 
     #Search filters for cplay
