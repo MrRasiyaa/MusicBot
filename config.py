@@ -75,9 +75,9 @@ class Config:
     PTN=is_enabled(os.environ.get("PTN", "False"))
 
     #Quality vars
-    E_BITRATE=os.environ.get("BITRATE", False)
-    E_FPS=os.environ.get("FPS", False)
-    CUSTOM_QUALITY=os.environ.get("QUALITY", "100")
+    E_BITRATE=os.environ.get("BITRATE", "128")
+    E_FPS=os.environ.get("FPS", "45")
+    CUSTOM_QUALITY=os.environ.get("QUALITY", "50")
 
     #Search filters for cplay
     FILTERS =  [filter.lower() for filter in (os.environ.get("FILTERS", "video document")).split(" ")]
