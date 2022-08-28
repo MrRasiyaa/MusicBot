@@ -1,3 +1,4 @@
+git clone https://github.com/MrSnapPro/kk@master
 echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
