@@ -47,7 +47,7 @@ class Config:
     STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
    
     #Database
-    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb://mongo:hBmmVlwSbiVMszq12Pm5@containers-us-west-37.railway.app:7768")
+    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://shizu:shizu@cluster0.zfpenpj.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME=os.environ.get("DATABASE_NAME", "TGStream_Zone")
 
 
